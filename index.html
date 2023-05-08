@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select characters</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <audio autoplay="" loop="" src="Character Select.mp3"></audio>
+    <div class="head-t">
+        <img id="m-logo" src="off logo.png" alt="MK" width="336px">
+    </div>
+    <div class="main-container1">
+        <div class="liu-kang">
+            <img id="liu" src="liu kang.png" alt="liu-kang" onmouseover="liu.play()" onfocus="changeVisiblity1()"
+                width="100px">
+            <p>LIU KANG</p>
+        </div>
+        <div class="kunglao">
+            <img id="kung" src="kung lao.png" alt="kunglao" onmouseover="kung.play()" width="100px">
+            <p>KUNG LAO</p>
+        </div>
+        <div class="johnny-cage">
+            <img id="johnny" src="johnny cage.png" alt="johnny-cage" onmouseover="johnny.play()" width="100px">
+            <P>JOHNNY CAGE</P>
+        </div>
+        <div class="sonya-blade">
+            <img id="blade" src="sonya blade.png" alt="sonya-blade" onmouseover="sonya.play()" width="100px">
+            <P>SONYA BLADE</P>
+        </div>
+        <div class="raiden">
+            <img id="raiden" src="raiden.png" alt="raiden" onmouseover="raiden.play()" width="200px">
+            <P>RAIDEN</P>
+        </div>
+        <div class="kano">
+            <img id="kano" src="kano.png" alt="kano" onmouseover="kano.play()" width="100px">
+            <P>KANO</P>
+        </div>
+        <div class="scorpion">
+            <img id="scorpion" src="come-here.png" alt="scorpion" onmouseover="scorpion.play()" width="100px">
+            <P>SCORPION</P>
+        </div>
+        <div class="subzero">
+            <img id="subzero" src="freeze.png" alt="subzero" onmouseover="subzero.play()" width="100px">
+            <P>SUBZERO</P>
+        </div>
+        <div class="goro">
+            <img id="goro" src="goro.png" alt="goro" onmouseover="goro.play()" width="100px">
+            <P>GORO</P>
+        </div>
+        <div class="kenshi">
+            <img id="kenshi" src="kenshi.png" alt="kenshi" onmouseover="kenshi.play()" width="100px">
+            <P>KENSHI</P>
+        </div>
+        <div class="jax">
+            <img id="jax" src="jax.png" alt="jax" onmouseover="jax.play()" width="100px">
+            <P>JAX BRIGGS</P>
+        </div>
+        <div class="ermac">
+            <img id="ermac" src="ermac.png" alt="ermac" onmouseover="ermac.play()" width="100px">
+            <P>ERMAC</P>
+        </div>
+        <div class="mileena">
+            <img id="mileena" src="mileena.png" alt="mileena" onmouseover="mileena.play()" width="100px">
+            <P>MILEENA</P>
+        </div>
+        <div class="kotalkahn">
+            <img id="kahn" src="kotal kahn.png" alt="kotalkahn" onmouseover="kotal.play()" width="100px">
+            <P>KOTAL KAHN</P>
+        </div>
+        <div class="donttouch">
+            <p>Please don't don't<br>
+                click it!!</p>
+            <hr>
+            <div id="hide">Can't you understand! <br>dont click it</div>
+            <a href="#" onmousemove="changeVisiblity()">Click me!</a>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
+<script>
+
+    var ermac = new Audio();
+    ermac.src = "./ermac.mp3";
+
+    var johnny = new Audio();
+    johnny.src = "./johnny.mp3";
+
+    var kano = new Audio();
+    kano.src = "./kano.mp3";
+
+    var goro = new Audio();
+    goro.src = "./goro.mp3";
+
+    var sonya = new Audio();
+    sonya.src = "./sonya.mp3";
+
+    var jax = new Audio();
+    jax.src = "./jax.mp3";
+
+    var kenshi = new Audio();
+    kenshi.src = "./kenshi.mp3";
+
+    var liu = new Audio();
+    liu.src = "./liu.mp3";
+
+    var kung = new Audio();
+    kung.src = "./kunglao.mp3"
+
+    var mileena = new Audio();
+    mileena.src = "./mileena.mp3";
+
+    var raiden = new Audio();
+    raiden.src = "./raiden.mp3";
+
+    var scorpion = new Audio();
+    scorpion.src = "./scorpion.mp3";
+
+    var kotal = new Audio();
+    kotal.src = "./kotal.mp3";
+
+    var subzero = new Audio();
+    subzero.src = "./subzero-se.mp3";
+
+    function changeVisiblity() {
+        document.getElementById("hide").style.visibility = "visible";
+
+    }
+    function changeVisiblity1() {
+        document.getElementById("liu")
+    }
+
+</script>

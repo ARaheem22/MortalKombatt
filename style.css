@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head-t {
+    background-color: black;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+#m-logo {
+    padding: 10px 0px 13px 3px;
+}
+
+.main-container1 {
+    background-image: url(bg-img.jpg);
+    height: 110vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.liu-kang p{
+    font-style: bold;
+    font-weight: 50;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather', serif;
+
+}
+.kunglao p{
+    font-style: bold;
+    font-weight: 50;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather', serif;
+
+}
+.johnny-cage p{
+    font-style: bold;
+    font-weight: 50;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather', serif;
+
+}
+.sonya-blade p{
+    font-style: bold;
+    font-weight: 50;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather', serif;
+
+}
+.raiden p{
+    font-style: bold;
+    font-weight: 50;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather', serif;
+
+}
+.kano p{
+    font-style: bold;
+    font-weight: 50;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather', serif;
+
+}
+.scorpion p{
+    font-style: bold;
+    font-weight: 50;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather', serif;
+
+}
+.subzero p{
+    font-style: bold;
+    font-weight: 50;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather', serif;
+
+}
+.goro p{
+    font-style: bold;
+    font-weight: 50;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather', serif;
+
+}
+.kenshi p{
+    font-style: bold;
+    font-weight: 50;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather', serif;
+
+}
+.jax p{
+    font-style: bold;
+    font-weight: 50;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather', serif;
+
+}
+.ermac p{
+    font-style: bold;
+    font-weight: 50;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather', serif;
+
+}
+.mileena p{
+    font-style: bold;
+    font-weight: 50;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather', serif;
+
+}
+.kotalkahn p{
+    font-style: bold;
+    font-weight: 50;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather', serif;
+
+}
+
+#liu:hover {
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: rgb(223, 145, 42);
+    opacity: .6;
+}
+
+#kung:hover {
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-image: linear-gradient( rgb(0, 102, 255),rgb(39, 39, 39));
+    opacity: .6;
+}
+
+#johnny:hover {
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: rgb(8, 163, 8);
+    opacity: .6;
+}
+
+#blade:hover {
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: rgb(226, 226, 20);
+    opacity: .6;
+}
+
+#raiden:hover {
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background-image: linear-gradient( rgb(23, 107, 233),rgb(0, 81, 255));
+    opacity: .6;
+}
+
+#kano:hover {
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: red;
+    opacity: .6;
+}
+
+#scorpion:hover {
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-image: linear-gradient(rgb(255, 115, 0),rgb(255, 72, 0));
+    opacity: .6;
+}
+
+#subzero:hover {
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-image: linear-gradient( rgb(0, 195, 255),rgb(0, 162, 255));
+    opacity: .6;
+}   
+
+#goro:hover {
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: orange;
+    opacity: .6;
+}
+
+#kenshi:hover {
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: blue;
+    opacity: .6;
+}
+
+#jax:hover {
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: grey;
+    opacity: .6;
+}
+
+#ermac:hover {
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: green;
+    opacity: .6;
+}
+
+#mileena:hover {
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: rgb(241, 7, 46);
+    opacity: .6;
+}
+
+#kahn:hover {
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: rgb(3, 245, 152);
+    opacity: .6;
+}
+.donttouch {
+    position: fixed;
+    left: 1200px;
+    top: 400px;
+    z-index: 10;
+}
+.donttouch p{
+    color: white;
+    list-style: none;
+}
+
+hr {
+    text-decoration: none;
+    border: none;
+}
+
+.donttouch a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 23px;
+    background-color: #2f2f44;
+    border-radius: 45px;
+    position: sticky;
+    right: 12px;
+    top: 23px;
+    box-shadow: inset -2px 1px 13px 7px;
+    overflow: hidden;
+
+}
+
+#hide {
+    padding: 20px 12px;
+    border-radius: 40px;
+    position: relative;
+    background-color: red;
+    right: 170px;
+    bottom: 23px;
+    text-align: center;
+    visibility: hidden;
+    color: white;
+}
+
+.donttouch a:hover {
+    box-shadow: inset -2px 1px 16px 12px;
+    background-color: #4b4b83;
+}
